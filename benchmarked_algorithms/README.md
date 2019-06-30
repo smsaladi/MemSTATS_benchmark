@@ -6,4 +6,18 @@ the raw output of the symmetry-detection algorithms stored on [Zenodo](https://d
 
 > python benchmarking_with_MemSTATS.py
 
-Results are written in the **results/** subfolder. 
+Results are written in the **results/** subfolder.
+
+
+Prepare for running the analysis by the following:
+
+```bash
+pip install -r ../requirements.txt
+
+wget 'https://zenodo.org/record/3228540/files/symmetry_algorithms_data_on_MemSTATS.tar.gz?download=1'                                                                                                                                   
+tar xzf symmetry_algorithms_data_on_MemSTATS.tar.gz
+tar xzf ../MemSTATS_pdbs.tar.gz
+
+# then run `benchmarking_with_MemSTATS.py`
+```
+
